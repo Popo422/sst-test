@@ -1,0 +1,13 @@
+2024-06-01T21:07:22.665Z   +960ms [debug] Config loaded {"version":"2.43.0","cdkVersion":"2.142.1","constructsVersion":"10.3.0","config":{"name":"next-sst-test","region":"ap-northeast-1","stage":"prod","ssmPrefix":"/sst/next-sst-test/prod/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":267,"imports":[{"path":"aws-cdk-lib/aws-s3","kind":"import-statement","external":true},{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1717276041729.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":133}},"bytes":315}}},"paths":{"config":"D:\\PROJECTS\\next-sst-test\\sst.config.ts","root":"D:\\PROJECTS\\next-sst-test","out":"D:\\PROJECTS\\next-sst-test\\.sst","artifacts":"D:\\PROJECTS\\next-sst-test\\.sst\\artifacts"}}
+2024-06-01T21:07:33.508Z +10843ms [debug] Using AWS profile 
+2024-06-01T21:07:33.513Z     +5ms [debug] Created AWS client STSClient
+2024-06-01T21:07:33.516Z     +3ms [debug] Fetching app metadata
+2024-06-01T21:07:33.516Z     +0ms [debug] Initializing bootstrap context
+2024-06-01T21:07:33.517Z     +1ms [debug] Created AWS client CloudFormationClient
+2024-06-01T21:07:33.944Z   +427ms [debug] Using identity Account: 851725365331 User: AIDA4MTWJWBJS4HMVTZF5
+2024-06-01T21:07:33.990Z    +46ms [debug] Loaded bootstrap status
+2024-06-01T21:07:33.990Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.3","bucket":"sstbootstrap-apnortheast1d7efc456-79nxmlvyxn7p"}
+2024-06-01T21:07:34.388Z   +398ms [debug] Fetching app metadata: not found
+2024-06-01T21:07:46.776Z +12388ms [debug] Synthesizing stacks...
+2024-06-01T21:07:46.814Z    +38ms [debug] Generating types in D:\PROJECTS\next-sst-test\.sst\types
+2024-06-01T21:07:47.983Z  +1169ms [debug] Running "npx --yes open-next@3.0.2 build" script
